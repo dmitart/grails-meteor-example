@@ -1,0 +1,13 @@
+<h1>test</h1>
+<table>
+{{#todos}}
+  <tr>
+    <td>{{description}}</td><td><input type="checkbox" can-value="done"></td>
+    <td><input type="button" value="Delete" can-click="delete"></td>
+    </tr>
+{{/todos}}
+</table>
+
+Description
+<input type="text" can-value="description">
+<input type="button" can-click="add" value="Add">

@@ -2,12 +2,8 @@ package org.grmeteor
 
 import grails.rest.Resource
 
-@Resource(uri='/todos')
+@Resource(uri='/Todo')
 class Todo {
   String description
   boolean done
-
-  static constraints = {
-  }
-
 }
